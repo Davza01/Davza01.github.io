@@ -1,0 +1,22 @@
+html,body {
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container > div {
+    transition: all 0.5s ease-out;
+    transform: rotate(360deg);
+    background-color:orange;
+    height: 300px;
+    aspect-ratio: 1;
+}
+.container > div p {
+    transition: all 0.5s ease-out;
+    width: 100%;
+}
